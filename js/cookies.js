@@ -4,7 +4,7 @@ let myCookie = document.cookie;
 
 console.log(document.cookie);
 
-deleteCookie("name");
+deleteCookie("lName");
 
 function setCookie(name, value, daysOfCookie) {
     const date = new Date();
