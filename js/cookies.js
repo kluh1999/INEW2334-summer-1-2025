@@ -1,10 +1,10 @@
-document.cookie = "fName=Kayla; expires=Mon, 30 Jun 2025 12:00:00 UTC; path=/";
-document.cookie = "lName=Pope; expires=Mon, 30 Jun 2025 12:30:00 UTC; path=/";
+/*document.cookie = "fName=Kayla; expires=Mon, 30 Jun 2025 12:00:00 UTC; path=/";
+document.cookie = "lName=Pope; expires=Mon, 30 Jun 2025 12:30:00 UTC; path=/";*/
 let myCookie = document.cookie;
 
 console.log(document.cookie);
 
-deleteCookie("lName");
+deleteCookie("fName");
 
 function setCookie(name, value, daysOfCookie) {
     const date = new Date();
