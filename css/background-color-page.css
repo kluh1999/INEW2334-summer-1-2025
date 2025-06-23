@@ -1,0 +1,59 @@
+.bottom-ribbon {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #282A35;
+  color: white;
+  padding: 16px 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.ribbon-buttons button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accept-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.deny-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+
+
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    z-index: 999;
+  }
+  
+  .cookie-btn {
+    margin-left: 12px;
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

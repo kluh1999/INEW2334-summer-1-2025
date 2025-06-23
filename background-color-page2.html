@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Background Color Page</title>
+    <link rel="stylesheet" href="css/background-color-page.css" />
   </head>
   <body>
     <form>
@@ -11,10 +12,18 @@
       <br />
       <button id="btn">Change my Background Color</button>
     </form>
+    <div class="bottom-ribbon">
+      <span>This page uses cookies to save your preferences</span>
+      <div class="ribbon-buttons">
+        <button class="deny-btn">Deny</button>
+        <button class="accept-btn">Accept</button>
+      </div>
+    </div>
+
     <!--Changes background color of page-->
     <script src="js/background-color.js"></script>
     <footer>
-      <button class="btn">A button for something cool <span class="ribbon">NEW</span></button>
+      <button class="btn">A button for something cool<span class="sticky-ribbon"></span></button>
     </footer>
   </body>
 </html>
