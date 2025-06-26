@@ -33,7 +33,7 @@ const data = {
       }
     ]
   }
-//creating another variable that grabs "fruit" data
+//creating another variable that grabs "fruit" object data
   const fruitsArray = data.fruits;
 
   //looping through each fruit from 0
